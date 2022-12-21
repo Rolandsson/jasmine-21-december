@@ -17,22 +17,6 @@ function createTodoCard(entry) {
   return card;
 }
 
-function createTodos() {
-  let todos = [
-    {
-      title: "Must do",
-      text: "Today must do today"
-    },
-    {
-      title: "Must do #2",
-      text: "Today must do today, Today must do today"
-    }
-  ];
-  return todos;
-}
-
-
-let todos = createTodos();
 
 todos.forEach(todo => {
   let todoEntry = createTodoCard(todo);
